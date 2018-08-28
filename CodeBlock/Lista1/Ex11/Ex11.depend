@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1534807734 source:c:\users\bruno\onedrive\ifc - sombrio\ii semestre\programação ii\codeblock\lista1\ex11\main.c
+	<stdlib.h>
+	<stdio.h>
+	<locale.h>
+
