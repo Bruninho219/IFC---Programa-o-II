@@ -18,5 +18,5 @@ main()
     scanf("%f", &valD);
 
     printf("\nValor a pagar: R$%.2f\n", valH*numH*numP);
-    printf("Valor a pagar comdesconto: R$%.2f\n\n", valH*numH*numP-valD);
+    printf("Valor a pagar com desconto: R$%.2f\n\n", valH*numH*numP-valD);
 }
