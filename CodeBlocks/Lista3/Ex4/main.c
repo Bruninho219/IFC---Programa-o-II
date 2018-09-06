@@ -18,6 +18,6 @@ main()
 	scanf("%f", &ttGan);
 
 	printf("\nMédia de consumo: %.2fKm/l\n", (kilFin-kilIni)/combGast);
-	printf("Lucro líquido do dia: R$%.2f\n\n", combGast*val);
+	printf("Lucro líquido do dia: R$%.2f\n\n", ttGan-combGast*val);
 	system("pause");
 }
