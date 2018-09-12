@@ -6,7 +6,7 @@ main()
 {
     setlocale(LC_ALL, "Portuguese");
     int numP;
-    float numH, valH, valD;
+    float numH, valH, porcD;
 
     printf("Informe o número de pessoas:\n");
     scanf("%d", &numP);
@@ -14,9 +14,9 @@ main()
     scanf("%f", &valH);
     printf("Informe o tempo de permanência (hs):\n");
     scanf("%f", &numH);
-    printf("Informe o valor do desconto (R$):\n");
-    scanf("%f", &valD);
+    printf("Informe o percentual de desconto (Ex.: 10):\n");
+    scanf("%f", &porcD);
 
     printf("\nValor a pagar: R$%.2f\n", valH*numH*numP);
-    printf("Valor a pagar com desconto: R$%.2f\n\n", valH*numH*numP-valD);
+    printf("Valor a pagar com desconto: R$%.2f\n\n", (valH*numH*numP)*(1-porcD/100));
 }
