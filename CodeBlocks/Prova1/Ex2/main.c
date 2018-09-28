@@ -22,8 +22,8 @@ main()
     scanf("%d", &qCho);
 
     valA=qSalsH*5+qSalsF*7+qHamB*9+qEmp*9+qHamC*9;
-    //valB=qCho*10;
-    valB=qCho*10/2;
+    //valB=qCho*10; //resposta correta segundo o professor
+    valB=qCho*10/2; //minharesposta que eu acredito estar correta
 
     printf("\nO valor bruto consumido com alimentação: R$%.2f\n", valA);
     printf("O valor bruto consumido com bebidas: R$%.2f\n", valB);
