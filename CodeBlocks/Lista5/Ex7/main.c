@@ -5,25 +5,21 @@
 main()
 {
 	setlocale(LC_ALL, "Portuguese");
-    int i=0;
+
     float num, numTt=0;
 
     printf("Informe um número:\n");
     printf("Informe 0 para sair:\n");
 
-	do
+	while(num!=0)
     {
-        printf("Valor %i: ", i+1);
+        printf("Valor: ");
         scanf("%f", &num);
-
-        if(num>0)
-        {
-            numTt=num+numTt;
-            i++;
-        }
+		
+		numTt=num+numTt;
     }
-    while(num!=0);
+    
 
-    printf("\nMédia da soma dos números: %.2f\n\n", numTt/i);
+    printf("\soma dos números: %.2f\n\n", numTt);
 	system("pause");
 }
