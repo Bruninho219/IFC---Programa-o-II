@@ -13,7 +13,7 @@ main()
     printf("X -Sair\n\n");
 	do
     {
-        printf("Informemo sexo do aluno(a) %i:\n", i+1);
+        printf("Informe o sexo do aluno(a) %i:\n", i+1);
         scanf("%c", &sexo);
         fflush(stdin);
 
@@ -34,17 +34,14 @@ main()
                 break;
             default:
                 inv++;
+                break;
         }
     }
     while(sexo!='x' && sexo!='X');
 
     printf("Aluno: %i\n", masc);
-    printf("Aluna: %i\n\n", fem);
+    printf("Aluna: %i\n", fem);
     printf("Inválidos: %i\n\n", inv);
 
 	system("pause");
 }
-/*
-Além disso, deve informar também o número de digitações inválidas.
-O algoritmo encerra quando encontrar a letra X.
-*/

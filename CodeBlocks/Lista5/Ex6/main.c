@@ -8,13 +8,13 @@ main()
     float sal=0, salTt=0;
 
 	printf("Informe o valor do salário dos funcionários:\n");
-	for(int i=1; i<=5; i++)
+	for(int i=1; i<=30; i++)
     {
         printf("Funcionário %i:\n", i);
         scanf("%f", &sal);
 
         salTt=sal+salTt;
     }
-    printf("Salário médio: R$%.2f\n\n", salTt/5);
+    printf("Salário médio: R$%.2f\n\n", salTt/30);
 	system("pause");
 }

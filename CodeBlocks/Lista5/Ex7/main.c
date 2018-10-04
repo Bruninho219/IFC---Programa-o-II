@@ -15,11 +15,11 @@ main()
     {
         printf("Valor: ");
         scanf("%f", &num);
-		
+
 		numTt=num+numTt;
     }
-    
 
-    printf("\soma dos números: %.2f\n\n", numTt);
+
+    printf("\Soma dos números: %.2f\n\n", numTt);
 	system("pause");
 }

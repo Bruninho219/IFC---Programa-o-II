@@ -22,6 +22,6 @@ main()
     }
     while(num>=0);
 
-    printf("\nSoma dos números: %i\n\n", numTt/i);
+    printf("\nMédia dos números informados: %i\n\n", numTt/i);
 	system("pause");
 }
